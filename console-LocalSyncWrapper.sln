@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OPCClientToolKit", "OPCClientToolKit\OPCClientToolKit.vcxproj", "{169E1B60-878B-4237-95FF-065DD5F36180}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "console-LocalSyncWrapper", "console-LocalSyncWrapper\console-LocalSyncWrapper.vcxproj", "{E4B448FC-7E5A-4B08-B377-E10065017B08}"
+	ProjectSection(ProjectDependencies) = postProject
+		{169E1B60-878B-4237-95FF-065DD5F36180} = {169E1B60-878B-4237-95FF-065DD5F36180}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Debug|x64.ActiveCfg = Debug|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Debug|x64.Build.0 = Debug|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Debug|x86.ActiveCfg = Debug|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Debug|x86.Build.0 = Debug|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Release|x64.ActiveCfg = Debug|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Release|x64.Build.0 = Debug|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Release|x86.ActiveCfg = Debug|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Release|x86.Build.0 = Debug|Win32
+		{E4B448FC-7E5A-4B08-B377-E10065017B08}.Debug|x64.ActiveCfg = Debug|Win32
+		{E4B448FC-7E5A-4B08-B377-E10065017B08}.Debug|x64.Build.0 = Debug|Win32
+		{E4B448FC-7E5A-4B08-B377-E10065017B08}.Debug|x86.ActiveCfg = Debug|Win32
+		{E4B448FC-7E5A-4B08-B377-E10065017B08}.Debug|x86.Build.0 = Debug|Win32
+		{E4B448FC-7E5A-4B08-B377-E10065017B08}.Release|x64.ActiveCfg = Debug|Win32
+		{E4B448FC-7E5A-4B08-B377-E10065017B08}.Release|x64.Build.0 = Debug|Win32
+		{E4B448FC-7E5A-4B08-B377-E10065017B08}.Release|x86.ActiveCfg = Debug|Win32
+		{E4B448FC-7E5A-4B08-B377-E10065017B08}.Release|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3A6CF1B-C256-430D-A706-7E020B385A59}
+	EndGlobalSection
+EndGlobal
