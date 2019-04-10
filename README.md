@@ -68,11 +68,19 @@ Usage: Use the float type to write the address value from the specified serverna
 usage: console-LocalSyncWrapper.exe -wf <servername> <address> <value>
 
 example: console-LocalSyncWrapper.exe -h
+
 example: console-LocalSyncWrapper.exe -l
+
 example: console-LocalSyncWrapper.exe -d Kepware.KEPServerEX.V6
+
 example: console-LocalSyncWrapper.exe -r ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 Channel1.Device1.x3 Channel1.Device1.x4
+
 example: console-LocalSyncWrapper.exe -w ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 0
+
 example: console-LocalSyncWrapper.exe -rb ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 Channel1.Device1.x3 Channel1.Device1.x4
-example: console-LocalSyncWrapper.exe -wb ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 true
+
+example: console-LocalSyncWrapper.exe -wb ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 1
+
 example: console-LocalSyncWrapper.exe -rf ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 Channel1.Device1.x3 Channel1.Device1.x4
+
 example: console-LocalSyncWrapper.exe -wf ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 20.55
