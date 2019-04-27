@@ -1,5 +1,5 @@
 # OPC-Client-console-LocalSyncWrapper
-什么是console-LocalSyncWrapper? 
+什么是OPC-Client-console-LocalSyncWrapper? 
 
 这是一个opc客户端命令行程序,面向对象的OPC DA Client SDK / ToolKit用C ++编写，支持X86 / X64，实现OPC DA规范版本2.05A
 
@@ -12,6 +12,10 @@ The compile and run environment is: windows 10 x64, version number is 1903, the 
 这个项目基于edimetia3d/OPC-Client-X64开发而来,解决了它不能在win10系统运行的问题,并采用命令行输入输出方式,以便在其他程序中调用.
 
 This project is based on edimetia3d/OPC-Client-X64 and solves the problem that it can't run on win10 system, and uses command line input and output mode to call in other programs.
+
+这个项目需要在windows系统中，以管理员身份运行
+
+This project needs to be run as an administrator on the windows system.
 
 https://github.com/edimetia3d/OPC-Client-X64
 
@@ -154,3 +158,8 @@ example: console-LocalSyncWrapper.exe -wb ICONICS.SimulatorOPCDA.2 Channel1.Devi
 example: console-LocalSyncWrapper.exe -rf ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 Channel1.Device1.x3 Channel1.Device1.x4
 
 example: console-LocalSyncWrapper.exe -wf ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 20.55
+
+输入以下指令
+  console-LocalSyncWrapper  -d ICONICS.SimulatorOPCDA.2
+ 等价于
+ console-LocalSyncWrapper -r  ICONICS.SimulatorOPCDA.2   Channel1.Device1.x0 Channel1.Device1.x1 Channel1.Device1.x2 Channel1.Device1.x3 Channel1.Device1.x4 Channel1.Device1.x5 Channel1.Device1.x6 Channel1.Device1.x7 Channel1.Device1.x10 Channel1.Device1.x11 Channel1.Device1.x12 Channel1.Device1.x13 Channel1.Device1.x14 Channel1.Device1.x15  Channel1.Device1.x16  Channel1.Device1.x17 Channel1.Device1.y0 Channel1.Device1.y1 Channel1.Device1.y2 Channel1.Device1.y3 Channel1.Device1.y4 Channel1.Device1.y5 Channel1.Device1.y6 Channel1.Device1.y7 Channel1.Device1.y10 Channel1.Device1.y11 Channel1.Device1.y12 Channel1.Device1.y13 Channel1.Device1.y14 Channel1.Device1.y15
