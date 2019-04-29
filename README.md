@@ -13,7 +13,7 @@ The compile and run environment is: windows 10 x64, version number is 1903, the 
 
 This project is based on edimetia3d/OPC-Client-X64 and solves the problem that it can't run on win10 system, and uses command line input and output mode to call in other programs.
 
-这个项目需要在windows系统中，以管理员身份运行
+# 这个项目需要在windows系统中，以管理员身份运行
 
 This project needs to be run as an administrator on the windows system.
 
@@ -66,7 +66,7 @@ opc client command line OPC DA Client implements OPC DA specification version 2.
 View help and more features with the -h parameter
 
 
-帮助
+# 帮助
 
 第一个参数为读或写或帮助或默认操作或列出 -h/-l/-d/-r/-w/-rb/-wb/-rf/-wf
 
