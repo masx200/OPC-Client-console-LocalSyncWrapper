@@ -103,13 +103,13 @@ usage: console-LocalSyncWrapper.exe -l
 
 Usage: Default read of the specified servername
 
-usage: console-LocalSyncWrapper.exe -d <servername>
+usage: console-LocalSyncWrapper.exe -d \<servername\>
   
 # 用法:用uint类型来从指定的servername的读取多个address的数值
   
 Usage: Use the uint type to read the value of multiple addresses from the specified servername
   
-usage: console-LocalSyncWrapper.exe -r <servername> <address> [address] [address] [address] ... [address]
+usage: console-LocalSyncWrapper.exe -r \<servername\> \<address\> [address] [address] [address] ... [address]
   
 # 用法:用uint类型来从指定的servername的写入address的数值为 value
   
@@ -121,25 +121,25 @@ usage: console-LocalSyncWrapper.exe -w \<servername\> \<address\> \<value\>
   
 Usage: Use the uint type to write the value of the address from the specified servername to value
   
-usage: console-LocalSyncWrapper.exe -rb <servername> <address> [address] [address] [address] ... [address]
+usage: console-LocalSyncWrapper.exe -rb \<servername\> \<address\> [address] [address] [address] ... [address]
   
 # 用法:用bool类型来从指定的servername的写入address的数值为 value
   
 Usage: Use the bool type to write the value of the address from the specified servername to value
   
-usage: console-LocalSyncWrapper.exe -wb <servername> <address> <value>
+usage: console-LocalSyncWrapper.exe -wb \<servername\> \<address\> \<value\>
   
 # 用法:用float类型来从指定的servername的读取多个address的数值
   
 Usage: Use the float type to read the value of multiple addresses from the specified servername
 
-usage: console-LocalSyncWrapper.exe -rf <servername> <address> [address] [address] [address] ... [address]
+usage: console-LocalSyncWrapper.exe -rf \<servername\> \<address\> [address] [address] [address] ... [address]
   
 # 用法:用float类型来从指定的servername的写入address的数值为 value
   
 Usage: Use the float type to write the address value from the specified servername to value
   
-usage: console-LocalSyncWrapper.exe -wf <servername> <address> <value>
+usage: console-LocalSyncWrapper.exe -wf \<servername\> \<address\> \<value\>
   
 # 示例
 
