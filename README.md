@@ -10,14 +10,14 @@ What is a console-LocalSyncWrapper? This is an opc client command line program, 
 The compile and run environment is: windows 10 x64, version number is 1903, the system internal version number is 18362.30, and the development tool is Microsoft Visual Studio 2019.
 
 这个项目基于edimetia3d/OPC-Client-X64开发而来,解决了它不能在win10系统运行的问题,并采用命令行输入输出方式,以便在其他程序中调用.
-
+https://github.com/edimetia3d/OPC-Client-X64
 This project is based on edimetia3d/OPC-Client-X64 and solves the problem that it can't run on win10 system, and uses command line input and output mode to call in other programs.
 
 # 这个项目需要在windows系统中，以管理员身份运行
 
 This project needs to be run as an administrator on the windows system.
 
-https://github.com/edimetia3d/OPC-Client-X64
+
 
 更多帮助请看这里See more help here
 
