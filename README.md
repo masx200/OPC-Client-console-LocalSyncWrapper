@@ -86,60 +86,62 @@ The third parameter is the target item address for reading or writing address
 
 The fourth parameter is the value written, value does not need to be entered
 
-用法:显示帮助说明
+# 用法:显示帮助说明
 
 Usage: Display help description
 
 usage: console-LocalSyncWrapper.exe -h
 
 
-用法:列出本地servername的列表
+# 用法:列出本地servername的列表
 
 Usage: List the list of local servernames
 
 usage: console-LocalSyncWrapper.exe -l
 
-用法:指定的servername的默认读取
+# 用法:指定的servername的默认读取
 
 Usage: Default read of the specified servername
 
 usage: console-LocalSyncWrapper.exe -d <servername>
   
-用法:用uint类型来从指定的servername的读取多个address的数值
+# 用法:用uint类型来从指定的servername的读取多个address的数值
   
 Usage: Use the uint type to read the value of multiple addresses from the specified servername
   
 usage: console-LocalSyncWrapper.exe -r <servername> <address> [address] [address] [address] ... [address]
   
-用法:用uint类型来从指定的servername的写入address的数值为 value
+# 用法:用uint类型来从指定的servername的写入address的数值为 value
   
 Usage: Use the uint type to write the value of the address from the specified servername to value
   
-usage: console-LocalSyncWrapper.exe -w <servername> <address> <value>
+usage: console-LocalSyncWrapper.exe -w \<servername\> \<address\> \<value\>
   
-用法:用bool类型来从指定的servername的读取多个address的数值
+# 用法:用bool类型来从指定的servername的读取多个address的数值
   
 Usage: Use the uint type to write the value of the address from the specified servername to value
   
 usage: console-LocalSyncWrapper.exe -rb <servername> <address> [address] [address] [address] ... [address]
   
-用法:用bool类型来从指定的servername的写入address的数值为 value
+# 用法:用bool类型来从指定的servername的写入address的数值为 value
   
 Usage: Use the bool type to write the value of the address from the specified servername to value
   
 usage: console-LocalSyncWrapper.exe -wb <servername> <address> <value>
   
-用法:用float类型来从指定的servername的读取多个address的数值
+# 用法:用float类型来从指定的servername的读取多个address的数值
   
 Usage: Use the float type to read the value of multiple addresses from the specified servername
 
 usage: console-LocalSyncWrapper.exe -rf <servername> <address> [address] [address] [address] ... [address]
   
-用法:用float类型来从指定的servername的写入address的数值为 value
+# 用法:用float类型来从指定的servername的写入address的数值为 value
   
 Usage: Use the float type to write the address value from the specified servername to value
   
 usage: console-LocalSyncWrapper.exe -wf <servername> <address> <value>
+  
+# 示例
 
 example: console-LocalSyncWrapper.exe -h
 
