@@ -10,21 +10,21 @@ How to use console-LocalSyncWrapper?
 假设console-LocalSyncWrapper.exe所在的目录为 
 Run cmd.exe or powershell.exe as an administrator and run
 Suppose the directory where console-LocalSyncWrapper.exe is located is
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper
+d:\Documents\\console-LocalSyncWrapper
 然后运行指令
 Then run the command
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe
 ===================================================
 不带参数的指令
 Instruction without parameters
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe
 默认相当于
 Default equivalent
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -h
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -h
 ===================================================
 运行示例如下:
 The running example is as follows:
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe 
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe 
 得到以下输出:
 Get the following output:
 ========================================
@@ -83,15 +83,15 @@ example: console-LocalSyncWrapper.exe -rf ICONICS.SimulatorOPCDA.2 Channel1.Devi
 example: console-LocalSyncWrapper.exe -wf ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 20.55
 ==========================================
 运行示例如下:得到以下输出:
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -l
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -l
 =======================================
 opc客户端命令行 OPC DA Client 实现OPC DA规范版本2.05A
 使用-h参数查看帮助和更多功能
 opc client command line OPC DA Client implements OPC DA specification version 2.05A
 View help and more features with the -h parameter
 
-接受参数 D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
-Accept parameters D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+接受参数 D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+Accept parameters D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
 接受参数 -l
 Accept parameters -l
 
@@ -105,7 +105,7 @@ Server ID List:
 1. ICONICS.SimulatorOPCDA.2
 ==============================================
 运行示例如下:得到以下输出:
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -r ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -r ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0
 =================================================
 
 opc客户端命令行 OPC DA Client 实现OPC DA规范版本2.05A
@@ -113,8 +113,8 @@ opc客户端命令行 OPC DA Client 实现OPC DA规范版本2.05A
 opc client command line OPC DA Client implements OPC DA specification version 2.05A
 View help and more features with the -h parameter
 
-接受参数 D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
-Accept parameters D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+接受参数 D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+Accept parameters D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
 接受参数 -r
 Accept parameters -r
 接受参数 ICONICS.SimulatorOPCDA.2
@@ -135,15 +135,15 @@ read-uint-Channel1.Device1.x0=1-read-finish
 disconnect-stoped-finish
 ========================================================
 运行示例如下:得到以下输出:
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -w ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 1
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -w ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0 1
 =====================================================
 opc客户端命令行 OPC DA Client 实现OPC DA规范版本2.05A
 使用-h参数查看帮助和更多功能
 opc client command line OPC DA Client implements OPC DA specification version 2.05A
 View help and more features with the -h parameter
 
-接受参数 D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
-Accept parameters D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+接受参数 D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+Accept parameters D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
 接受参数 -w
 Accept parameters -w
 接受参数 ICONICS.SimulatorOPCDA.2
@@ -167,15 +167,15 @@ write-uint-Channel1.Device1.x0=1-write-finish
 disconnect-stoped-finish
 =================================================
 运行示例如下:得到以下输出:
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -d ICONICS.SimulatorOPCDA.2
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -d ICONICS.SimulatorOPCDA.2
 ============================================================
 opc客户端命令行 OPC DA Client 实现OPC DA规范版本2.05A
 使用-h参数查看帮助和更多功能
 opc client command line OPC DA Client implements OPC DA specification version 2.05A
 View help and more features with the -h parameter
 
-接受参数 D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
-Accept parameters D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+接受参数 D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+Accept parameters D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
 接受参数 -d
 Accept parameters -d
 接受参数 ICONICS.SimulatorOPCDA.2
@@ -223,15 +223,15 @@ read-uint-Channel1.Device1.y15=1-read-finish
 disconnect-stoped-finish
 ==========================================
 运行示例如下:得到以下输出:
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe  -rf   ICONICS.SimulatorOPCDA.2 random.floatrandom
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe  -rf   ICONICS.SimulatorOPCDA.2 random.floatrandom
 =============================================
 opc客户端命令行 OPC DA Client 实现OPC DA规范版本2.05A
 使用-h参数查看帮助和更多功能
 opc client command line OPC DA Client implements OPC DA specification version 2.05A
 View help and more features with the -h parameter
 
-接受参数 D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
-Accept parameters D:\Documents\我的毕业论文资料\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+接受参数 D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
+Accept parameters D:\Documents\\console-LocalSyncWrapper\开发环境中console-LocalSyncWrapper\Debug\console-LocalSyncWrapper.exe
 接受参数 -rf
 Accept parameters -rf
 接受参数 ICONICS.SimulatorOPCDA.2
