@@ -37,26 +37,26 @@ Run cmd.exe or powershell.exe as an administrator and run
 
 Suppose the directory where console-LocalSyncWrapper.exe is located is
 
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper
+d:\Documents\\console-LocalSyncWrapper
 
 然后运行指令
 
 Then run the command
 
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe
 
 不带参数的指令
 
 Instruction without parameters
 
 
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe
 
 默认相当于
 
 Default equivalent
 
-d:\Documents\我的毕业论文资料\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -h
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -h
 
 
 opc客户端命令行 OPC DA Client 实现OPC DA规范版本2.05A
