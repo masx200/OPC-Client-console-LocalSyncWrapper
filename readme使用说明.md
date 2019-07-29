@@ -194,15 +194,17 @@ ProgID: ICONICS.SimulatorOPCDA.2 CLSID: {A879768A-7387-11D4-B0D8-009027242C59}
 
 Server ID List:
 
+```
 0. Kepware.KEPServerEX.V6
 
 1. # ICONICS.SimulatorOPCDA.2
+```
 
-   运行示例如下:得到以下输出:
+运行示例如下:得到以下输出:
 
-   d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -r ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0
+d:\Documents\\console-LocalSyncWrapper\console-LocalSyncWrapper.exe -r ICONICS.SimulatorOPCDA.2 Channel1.Device1.x0
 
-   =================================================
+=================================================
 
 opc 客户端命令行 OPC DA Client 实现 OPC DA 规范版本 2.05A
 

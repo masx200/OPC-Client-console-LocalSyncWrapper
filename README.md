@@ -22,7 +22,7 @@ This project needs to be run as an administrator on the windows system.
 
 更多帮助请看这里 See more help here
 
-https://github.com/masx200/OPC-Client-console-LocalSyncWrapper/blob/master/readme%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.txt
+https://github.com/masx200/OPC-Client-console-LocalSyncWrapper/blob/master/readme%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md
 
 怎样使用 console-LocalSyncWrapper?
 
